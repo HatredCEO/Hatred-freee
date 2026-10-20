@@ -1,0 +1,13 @@
+{
+  "vertex": "modid:core/glass_hands",
+  "fragment": "modid:core/glass_mask",
+  "samplers": [
+    { "name": "Sampler0" },
+    { "name": "Sampler1" },
+    { "name": "Sampler2" },
+    { "name": "Sampler3" }
+  ],
+  "uniforms": [
+    { "name": "TexelSize", "type": "float", "count": 2, "values": [ 1.0, 1.0 ] }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "dev.Mardexx.mixins",
+	"refmap": "modid.refmap.json",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

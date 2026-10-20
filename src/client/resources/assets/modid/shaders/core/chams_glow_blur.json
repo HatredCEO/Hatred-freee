@@ -1,0 +1,13 @@
+{
+  "vertex": "modid:core/chams_glow_blur",
+  "fragment": "modid:core/chams_glow_blur",
+  "samplers": [
+    { "name": "Sampler0" },
+    { "name": "Sampler1" }
+  ],
+  "uniforms": [
+    { "name": "TexelSize", "type": "float", "count": 2, "values": [ 1.0, 1.0 ] },
+    { "name": "Direction", "type": "float", "count": 2, "values": [ 1.0, 0.0 ] },
+    { "name": "Radius", "type": "float", "count": 1, "values": [ 8.0 ] }
+  ]
+}

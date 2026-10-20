@@ -1,0 +1,10 @@
+{
+  "vertex": "modid:core/glass_hands",
+  "fragment": "modid:core/glass_kawase",
+  "samplers": [ { "name": "Sampler0" } ],
+  "uniforms": [
+    { "name": "TexelSize", "type": "float", "count": 2, "values": [ 1.0, 1.0 ] },
+    { "name": "Offset", "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "UpPass", "type": "float", "count": 1, "values": [ 0.0 ] }
+  ]
+}

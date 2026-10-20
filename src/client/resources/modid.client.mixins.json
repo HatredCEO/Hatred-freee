@@ -1,0 +1,48 @@
+{
+	"required": true,
+	"package": "dev.Mardexx.mixins",
+	"refmap": "modid.refmap.json",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"MixinAbstractContainerScreen",
+		"MixinClientboundContainerSetSlotPacketAccessor",
+		"MixinClientPacketListener",
+		"MixinConnection",
+		"MixinEquipmentLayerRenderer",
+		"MixinEntity",
+		"MixinEntityRendererNameTag",
+		"MixinFishingHookRenderer",
+		"MixinFogRenderer",
+		"MixinGameRendererAspectRatio",
+		"MixinGameRendererRemovals",
+		"MixinGuiRemovals",
+		"MixinKeyboardHandler",
+		"MixinKeyboardInput",
+		"MixinLightTextureRemovals",
+		"MixinLivingEntityRenderer",
+		"MixinLivingEntityRenderState",
+		"MixinLivingEntityAccessor",
+		"MixinMinecraftKeybinds",
+		"MixinItemCooldownsAccessor",
+		"MixinItemModelResolverCustomSwords",
+		"MixinClientLevelDataWorldTweaks",
+		"MixinCooldownInstanceAccessor",
+		"MixinMultiPlayerGameMode",
+		"MixinItemStackRenderState",
+		"MixinItemStackLayerRenderState",
+		"MixinOutlineBufferSourceAccessor",
+		"MixinParticleEngine",
+		"MixinLocalPlayer",
+		"MixinRenderType",
+		"MixinScreenEffectRenderer",
+		"MixinScreenTitleAccessor",
+		"MixinServerboundContainerClickPacketAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
